@@ -2,7 +2,7 @@ name: Python Script Workflow
 'on':
   push:
     branches:
-      - main
+      - develop
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
